@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 st.title('Dr Nuhu bmi Calculator')
-img =Image.open('C:\\Users\\Dr. Ibrahim Nuhu\\Downloads\\pexels-dominika-poláková-18355832.jpg')
+img =Image.open('pexels-dominika-poláková-18355832.jpg')
 st.image(img,width = 450)
 name = st.text_input('What is Your Name')
 weight = st.number_input('Enter your weight(in kg)')
